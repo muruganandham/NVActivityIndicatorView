@@ -360,7 +360,7 @@ public typealias FadeOutAnimation = (UIView, @escaping () -> Void) -> Void
 public final class NVActivityIndicatorView: UIView {
     // swiftlint:disable identifier_name
     /// Default type. Default value is .BallSpinFadeLoader.
-    public static var DEFAULT_TYPE: NVActivityIndicatorType = .ballSpinFadeLoader
+    public static var DEFAULT_TYPE: NVActivityIndicatorType = .ballPulseSync
 
     /// Default color of activity indicator. Default value is UIColor.white.
     public static var DEFAULT_COLOR = UIColor.white
